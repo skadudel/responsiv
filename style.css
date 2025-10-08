@@ -2,8 +2,22 @@ body{
     background-color: #ddd;
 }
 
-.container{
-    background-color: aqua;
+.container1{
+    background-image: linear-gradient(red,cyan,red);
+    width: 200wh;
+    height: 150wh;
+    margin: 0 auto;
+}
+
+.container2{
+    background-image: radial-gradient(red,cyan);
+    width: 200wh;
+    height: 150wh;
+    margin: 0 auto;
+}
+
+.container3{
+     background-image: conic-gradient(red,cyan);
     width: 200wh;
     height: 150wh;
     margin: 0 auto;
